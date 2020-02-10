@@ -34,7 +34,7 @@ def Grassland():
 
 
 def choicetravel1():
-  print ("Do you want to travel to the Grassland?")
+  print ("Do you want to travel to the Grassland? ")
   times.time1
   choice = input("Travel/Don't ")
   if choice == "Travel" or choice == "travel" or choice == "t" or choice == "T":
@@ -100,7 +100,7 @@ def Battle_1():
 
 def choicetravel2():
   times.time1
-  print ("Do you want to travel to Right or Left?")
+  print ("Do you want to travel to Right or Left? ")
   choice = input("Right/Left ")
   times.time1
   if choice == "right" or choice == "Right" or choice == "r":
@@ -146,7 +146,7 @@ def Desert():
 def battle_2():
   print("You walk north, the thing that was moving was an alien army!")
   times.time1
-  print("your bright light shines! NEOOOOWOWOWOWO. -- sound of bright light.")
+  print("your bright light shines!")
   times.time1
   choice = input("the army pulls out their guns. What do you do? ")
   if choice == "use light" or choice == "light":
@@ -187,8 +187,6 @@ def choice1():
     choice = input ("what would you like to do? ")
     if choice == "Travel to Black Area" or choice == "go to black area" or choice == "travel to black area" or choice == "black area":
       void2()
-    elif choice == "follow boltyxp and his friends xdjimothy and lethrial on twitch.":
-      print ("You Win. btw follow them pls im desperate.")
     else:
       print ("you do not understand what you just said.")
 
@@ -201,7 +199,7 @@ def void2():
   times.time1
   print("its locked.")
   times.time1
-  choice = input("What do you do?")
+  choice = input("What do you do? ")
   if choice == "¬¬":
     void2con()
   elif choice == "``":
@@ -216,35 +214,9 @@ def void2con():
   times.time2
   print ("you unlock the door")
   times.time2
-  print ("you see him. Void aka Big Chungus.")
+  print ("you see him. Void, the final villain.")
   print ("your light has gone, however you sword is shining brightly.")
-  print ("""
- ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣧⠀⠀⠀⢰⡿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡟⡆⠀⠀⣿⡇⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⣿⠀⢰⣿⡇⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡄⢸⠀⢸⣿⡇⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡇⢸⡄⠸⣿⡇⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⢸⡅⠀⣿⢠⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣥⣾⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡿⡿⣿⣿⡿⡅⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠉⠀⠉⡙⢔⠛⣟⢋⠦⢵⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣄⠀⠀⠁⣿⣯⡥⠃⠀⢳⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡇⠀⠀⠀⠐⠠⠊⢀⠀⢸⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⡿⠀⠀⠀⠀⠀⠈⠁⠀⠀⠘⣿⣄⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⣠⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣷⡀⠀⠀⠀
-⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣧⠀⠀
-⠀⠀⠀⡜⣭⠤⢍⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢛⢭⣗⠀
-⠀⠀⠀⠁⠈⠀⠀⣀⠝⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠠⠀⠀⠰⡅
-⠀⠀⠀⢀⠀⠀⡀⠡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠔⠠⡕⠀
-⠀⠀⠀⠀⣿⣷⣶⠒⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠀⠀⠀⠀
-⠀⠀⠀⠀⠘⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⢿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠊⠉⢆⠀⠀⠀⠀
-⠀⢀⠤⠀⠀⢤⣤⣽⣿⣿⣦⣀⢀⡠⢤⡤⠄⠀⠒⠀⠁⠀⠀⠀⢘⠔⠀⠀⠀⠀
-⠀⠀⠀⡐⠈⠁⠈⠛⣛⠿⠟⠑⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠉⠑⠒⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
-  """)
+
   
   choice = input("what do you do? ")
   if choice == "use sword" or choice == "sword":
@@ -253,8 +225,12 @@ def void2con():
   elif choice == "use light" or choice == "light":
     print ("You dont have the light anymore.")
     dievoid2()
+  elif choice == "use gun" or choice == "gun":
+    print("You really think you can take him on with a small blaster?!")
+    print("You got killed by void")
+    quit()
   else:
-    print("You were too slow and Big chungus destroys your soul.")
+    print("You were too slow and Void destroys your soul.")
     quit()
 
 def dievoid2():
