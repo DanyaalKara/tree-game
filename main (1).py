@@ -184,7 +184,7 @@ def lightscene():
 
 def choice1():
   while True:
-    choice = input ("what would you like to do? ")
+    choice = input ("what would you like to do? (You are ready for the black area.) ")
     if choice == "Travel to Black Area" or choice == "go to black area" or choice == "travel to black area" or choice == "black area":
       void2()
     else:
@@ -195,7 +195,7 @@ def choice1():
 def void2():
   print("You walk to a Jet black dark area, there is a castle there")
   times.time1
-  print("Suddenly you get dragged into the massive castle!")
+  print("Suddenly you get thrown towards the massive castle!")
   times.time1
   print("its locked.")
   times.time1
