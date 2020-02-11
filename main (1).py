@@ -86,7 +86,7 @@ def Battle_1():
                 .'        /"'          |  "'   '_
                /_|.-'\ ,".             '.'`__'-( \
                  / ,"'"\,'               `/  `-.|"  """)
-  choice = input("Charge at the alien too or Dodge and stab. C/D ")
+  choice = input("Charge at the alien too or Try to dodge. C/D ")
   if choice == "d":
     times.time1
     print ("You dodge the attack, the alien was too slow, you stab him and the alien drops dead.")
@@ -115,7 +115,7 @@ def Desert():
   if choice == "yes" or choice == "Yes" or choice == "take sword" or choice == "y" or choice == "Y":
     print ("Nice.")
   else:
-    print ("a meteor crashes down on you. lol.")
+    print ("The light explodes in your face.")
     die_first()
 
   print ("You walk to a Scorching hot desert,")
@@ -132,9 +132,9 @@ def Desert():
   elif choice == "right" or choice == "blue area":
     print("You find an oasis")
     times.time1
-    print ("there is food so you eat from it, and water so you drink it too.")
+    print ("there are fruits from a tree, so you eat from it, and water from a lake so you drink it too.")
     times.time1
-    print("you fall asleep and find yourself in hell.")
+    print("you fall asleep and when you wake up, you find yourself in hell.")
     quit()
   elif choice == "Left" or choice == "l" or choice == "left":
     die_3()
@@ -281,7 +281,7 @@ def die_3():
   print("Suddenly you get dragged into the massive castle!")
   print("You see him, Void the final Boss. He leaps at you knocking you out.")
   print("You were unprepared and now the human race is non exsistant!!!!!")
-  print("You lose. Well done.")
+  print("You lose.")
   quit()
 
 def die_Joke(): 
@@ -291,7 +291,7 @@ def die_Joke():
  quit()
 
 def die_first(): 
- print("the unkown creature takes his sword out. he stabs you, you dont have a weapon.")
+ print("the unknown creature takes his sword out. he stabs you, you dont have a weapon.")
  print("you bleed alot, everything fades.")
  print("you died.. GG")
  quit()
